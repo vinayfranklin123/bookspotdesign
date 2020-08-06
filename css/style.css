@@ -1,0 +1,40 @@
+html, body {
+    font-family: 'Poppins', sans-serif;
+}
+
+.bg-0 {
+    background: rgb(34,65,151);
+    background: linear-gradient(0deg, rgba(34,65,151,1) 0%, rgba(136,79,84,1) 50%, rgba(230,91,22,1) 100%);
+    background-position: center center;
+    background-attachment: fixed;
+    background-repeat: no-repeat;
+    background-size: cover;
+}
+
+.bg-1{
+    background: rgb(252,219,219);
+    background: linear-gradient(0deg, rgba(252,219,219,1) 0%, rgba(247,195,171,1) 10%, rgba(233,169,141,1) 18%, rgba(246,162,127,1) 41%, rgba(208,88,37,1) 90%);
+    background-position: center center;
+    background-attachment: fixed;
+    background-repeat: no-repeat;
+    background-size: cover;
+}
+
+.nav-link:link, .nav-link:visited {
+    color: white;
+}
+
+.nav-link:hover, .active {
+    border-bottom: 3px solid white;
+}
+
+.nav-pad {
+    padding-left: 130px;
+}
+
+i {
+    color: white;
+}
+
+
+
